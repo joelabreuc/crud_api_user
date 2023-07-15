@@ -20,7 +20,7 @@ Descripción: Recupera una lista de todos los usuarios.
 
 Respuesta de Ejemplo:
 
-```[
+``[
   {
     "id": "1",
     "username": "john_doe",
@@ -31,7 +31,7 @@ Respuesta de Ejemplo:
     "username": "jane_smith",
     "age": 25
   }
-]```
+]``
 
 # Crear un nuevo usuario
 URL: /people
@@ -42,10 +42,10 @@ Descripción: Crea un nuevo usuario.
 
 Cuerpo de la Solicitud de Ejemplo:
 
-```{
+``{
   "username": "nuevo_usuario",
   "age": 40
-}```
+}``
 
 # Obtener un usuario específico
 URL: /people/:id
@@ -58,11 +58,11 @@ URL de Ejemplo: /people/1
 
 Respuesta de Ejemplo:
 
-```{
+``{
   "id": "1",
   "username": "john_doe",
   "age": 30
-}```
+}``
 
 # Actualizar un usuario
 URL: /people/:id
@@ -75,10 +75,10 @@ URL de Ejemplo: /people/1
 
 Cuerpo de la Solicitud de Ejemplo:
 
-```{
+``{
   "username": "usuario_actualizado",
   "age": 35
-}```
+}``
 
 Eliminar un usuario
 URL: /people/:id
